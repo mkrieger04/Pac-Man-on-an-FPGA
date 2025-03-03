@@ -10,3 +10,5 @@ Custom VGA Display: Rendered using a BRAM-based background and sprite animations
 Built as a final project for ECE 385 at UIUC, integrating hardware-accelerated game logic with efficient memory management.
 
 Below is a live demo of the game.
+Uploading IMG_8353 (1) (1) (1).mov…
+
