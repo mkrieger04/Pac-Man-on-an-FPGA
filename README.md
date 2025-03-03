@@ -15,3 +15,4 @@ Below is a live demo of the game.
 
 https://github.com/user-attachments/assets/fcafc8b9-3584-4358-aee9-ef325163a24a
 
+This repo only contains code that I wrote. All Vivado / Univeristy sources inlcuding Micoblaze block are not included.
