@@ -1,15 +1,12 @@
 # Pac-Man-on-an-FPGA
-Pac-Man on FPGA
-An FPGA-based implementation of Pac-Man using a MicroBlaze soft processor, GPIO peripherals for keyboard input, and BRAM for handling intensive graphical features.
+An FPGA-based Pac-Man implementation using a MicroBlaze soft processor, GPIO peripherals for keyboard input, and BRAM for graphical storage. The game features a maze constructed from 8x8 tiles, custom FontROM graphics, and real-time movement logic.
 
 Features
-Keyboard Input via USB: Utilizes the MAX3241E chip to enable keyboard controls for Pac-Man’s movement.
-Game Mechanics:
-Pac-Man navigates a maze, aiming to eat all pellets while avoiding ghosts.
-Starts with three lives—losing all results in a game over.
-Ghosts chase Pac-Man, attempting to deplete his lives.
-Power pellets grant Pac-Man a temporary ability to eat ghosts, sending them back to their starting point.
-Scoring System:
-Each pellet: 2 points
-Maximum score: 480 points (winning condition if all pellets are consumed before losing all lives).
-This project demonstrates real-time game logic execution on an FPGA, integrating USB-based keyboard control and efficient memory management with BRAM.
+Keyboard Input via USB (MAX3241E): Controls Pac-Man’s movement.
+Ghost AI: Three ghosts with unique movement patterns that chase Pac-Man.
+Power Pellets: Temporarily enable Pac-Man to eat ghosts.
+Score & Collision System: Tracks pellet consumption, ghost interactions, and win/loss conditions.
+Custom VGA Display: Rendered using a BRAM-based background and sprite animations.
+Built as a final project for ECE 385 at UIUC, integrating hardware-accelerated game logic with efficient memory management.
+
+Below is a live demo of the game.
